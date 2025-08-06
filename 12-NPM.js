@@ -7,6 +7,8 @@
 // global dependency - use it in any project
 // npm install -g <packageName>
 
+// npm install - install all packages detected in pachage.json
+
 const _ = require('lodash');
 
 const items = [1, [2, [3, [4]]]]
