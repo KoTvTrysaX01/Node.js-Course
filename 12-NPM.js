@@ -8,3 +8,5 @@
 // npm install -g <packageName>
 
 const _ = require('lodash');
+
+const items = [1, [2, [3, [4]]]]
