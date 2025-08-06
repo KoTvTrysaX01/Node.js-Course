@@ -1,6 +1,6 @@
 // Sync
 
-const {readFileSync, writeFileSync, writeFile, readFile} = require('fs');
+const {readFileSync, writeFileSync} = require('fs');
 
 // const first = readFileSync('./content/first.txt', 'utf8');
 // const second = readFileSync('./content/second.txt', 'utf8');
@@ -14,6 +14,8 @@ const {readFileSync, writeFileSync, writeFile, readFile} = require('fs');
 // Async
 
 const { readFile, writeFile } = require('fs');
+
+console.log("Start");
 
 readFile('./content/first.txt', 'utf8', (err, result) => {
     if (err) {
@@ -32,7 +34,9 @@ readFile('./content/first.txt', 'utf8', (err, result) => {
                 console.log(err);
                 return
             }
-            console.log(result);
+            console.log("Done with this task");
         })
     })
 })
+
+console.log("Starting next task");
