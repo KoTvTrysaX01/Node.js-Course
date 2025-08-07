@@ -4,7 +4,7 @@
   "description": "��#\u0000 \u0000N\u0000o\u0000d\u0000e\u0000.\u0000j\u0000s\u0000-\u0000C\u0000o\u0000u\u0000r\u0000s\u0000e\u0000\r\u0000 \u0000",
   "main": "0-myApp.js",
   "scripts": {
-    "start": "nodemon 0-myApp.js"
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/KoTvTrysaX01/Node.js-Course#readme",
   "dependencies": {
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "nodemon": "^2.0.7"
   }
 }
