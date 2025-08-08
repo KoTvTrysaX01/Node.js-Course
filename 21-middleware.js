@@ -10,7 +10,6 @@ const morgan = require('morgan')
 
 
 app.get('/', (req, res) => {
-
     res.send('Home')
 })
 
