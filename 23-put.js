@@ -43,9 +43,6 @@ app.post('/login', (req, res) => {
 
 
 
-
-
-
 app.put('/api/people/:id', (req, res) => {
     const { id } = req.params;
     const { name } = req.body;
@@ -66,10 +63,6 @@ app.put('/api/people/:id', (req, res) => {
     })
     res.status(200).json({success: true, data: newPeople})
 })
-
-
-
-
 
 
 app.listen(5000, () => {
